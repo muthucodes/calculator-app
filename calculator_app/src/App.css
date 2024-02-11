@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.container{
+  margin: 2rem auto;
+  width: min-content;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+input{
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.answer{
+  color: grey;
+  font-size: 1.5rem;
+}
+button{
+  min-width: 5rem;
+  background-color: lightgray;
+  border: 2px solid black;
+  padding: 10px;
+  font-size: 2rem;
+  border-radius: 15px;
+}
