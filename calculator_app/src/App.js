@@ -19,14 +19,17 @@ function App() {
       if(input === '0/0'){
         setAnswer('Nan');
       }
-      if(input === '1/0'){
+      else if(input === '1/0'){
         setAnswer('Infinity');
       }
-      if(input===''){
+      else if(input===''){
         setAnswer('Error');
       }
-      console.log('calculating');
-      setAnswer((prevInput) => eval(input));
+      else{
+        console.log('calculating');
+        setAnswer((prevInput) => eval(input))
+      }
+      ;
     }
     else if(value){
 
